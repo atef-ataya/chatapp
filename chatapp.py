@@ -56,3 +56,22 @@ def calculate_embedding_cost(texts):
     enc = tiktoken.encoding_for_model('text-embedding-ada-002')
     total_tokens = sum([len(enc.encode(page.page_content)) for page in texts])
     return total_tokens, total_tokens / 1000 * 0.0004
+
+# add application entry point
+
+if __name__ == '__main__':
+    import os
+    from dotenv import load_dotenv, find_dotenv
+    load_dotenv(find_dotenv(), override=True)
+
+    st.image('./images/banner.jpg')
+    st.subheader('LLM Question-Answering Application')
+    with st.sidebar:
+        api_key = st.text_input('OpenAI API Key', type='password')
+        if api_key:
+            os.environ['OPENAI_API_KEY'] = api_key
+
+        uploaded_file = st.file_uploader('Upload your file', type=['pdf', 'docx', 'txt'])
+        chunk_size = st.number_input('Chunk size:', min_value=100, max_value=2048, value=512)
+        k = st.number_input('K',min_value=1, max_value=20, value=3)
+        add_data = st.button('Add Data')
