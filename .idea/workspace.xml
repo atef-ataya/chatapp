@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09c41da3-f969-44c6-9399-0177081fe9c0" name="Changes" comment="Reading, Chunking, and Embedding Data">
+    <list default="true" id="09c41da3-f969-44c6-9399-0177081fe9c0" name="Changes" comment="Asking Questions and Getting Answers">
       <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Book -- Deep Learning with TensorFlow and Keras.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chatapp.py" beforeDir="false" afterPath="$PROJECT_DIR$/chatapp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/banner.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/banner.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +82,7 @@
       <option name="presentableId" value="Default" />
       <updated>1707495867771</updated>
       <workItem from="1707495869574" duration="849000" />
-      <workItem from="1707497674427" duration="3328000" />
+      <workItem from="1707497674427" duration="4594000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -122,7 +124,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707500711176</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Asking Questions and Getting Answers">
+      <option name="closed" value="true" />
+      <created>1707501171326</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1707501171326</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +156,7 @@
     <MESSAGE value="Defining the fuction" />
     <MESSAGE value="Creating the sidebar" />
     <MESSAGE value="Reading, Chunking, and Embedding Data" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reading, Chunking, and Embedding Data" />
+    <MESSAGE value="Asking Questions and Getting Answers" />
+    <option name="LAST_COMMIT_MESSAGE" value="Asking Questions and Getting Answers" />
   </component>
 </project>

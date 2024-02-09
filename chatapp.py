@@ -103,3 +103,11 @@ if __name__ == '__main__':
             st.write(f'K: {k}')
             answer = ask_and_get_answer(vector_store, q, k)
             st.text_area('LLM Answer: ', value=answer['result'])
+
+            st.divider()
+            if 'history' not in st.session_state:
+                st.session_state.history = ''
+            value = f'Q: {q} \nA:{answer['result']}'
+            st.session_state.history = f'{value} \n {"-" * 100} \n {st.session_state.history}'
+            h = st.session_state.history
+            st.text_area('Chat history:', value=h, key='history', height=400)
