@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09c41da3-f969-44c6-9399-0177081fe9c0" name="Changes" comment="Creating the sidebar">
+    <list default="true" id="09c41da3-f969-44c6-9399-0177081fe9c0" name="Changes" comment="Reading, Chunking, and Embedding Data">
       <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GNNs in Anomaly Detection.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chatapp.py" beforeDir="false" afterPath="$PROJECT_DIR$/chatapp.py" afterDir="false" />
     </list>
@@ -81,7 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1707495867771</updated>
       <workItem from="1707495869574" duration="849000" />
-      <workItem from="1707497674427" duration="2934000" />
+      <workItem from="1707497674427" duration="3328000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -115,7 +114,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707500184605</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Reading, Chunking, and Embedding Data">
+      <option name="closed" value="true" />
+      <created>1707500711176</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1707500711176</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,6 +145,7 @@
     <MESSAGE value="Adding the chatapp python file" />
     <MESSAGE value="Defining the fuction" />
     <MESSAGE value="Creating the sidebar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating the sidebar" />
+    <MESSAGE value="Reading, Chunking, and Embedding Data" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reading, Chunking, and Embedding Data" />
   </component>
 </project>
