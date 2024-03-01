@@ -114,4 +114,4 @@ if __name__ == '__main__':
             st.session_state.history = f'{value} \n {"-" * 100} \n {st.session_state.history}'
             h = st.session_state.history
             st.text_area('Chat history:', value=h, key='history', height=400)
-
+            #testing github connectivity
